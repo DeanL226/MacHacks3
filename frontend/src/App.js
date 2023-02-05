@@ -128,11 +128,13 @@ function App() {
           <div>
             <div className="insertPrompt">Insert Photo Here:</div>
             <input onChange={handleChange} />
-            <button onClick={handleSubmit}>Enter</button>
+            <div className = "generateButton">
+            <button onClick={handleSubmit}></button>
+            </div>
             <form>
               <input type="file" multiple />
               <button type="button" onClick={sendIdentification}>
-                OK
+                <div className = "Classify"></div>
               </button>
             </form>
           </div>
