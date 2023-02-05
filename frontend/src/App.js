@@ -137,7 +137,7 @@ function App() {
             </form>
           </div>
         </div>
-        <div>
+        <div className = "promptText">
           <div>Plant Name: {name}</div>
           <div>Max Temperature: {maxTemp}</div>
           <div>Min Temperature: {minTemp}</div>

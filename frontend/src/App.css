@@ -1,56 +1,75 @@
-.body{
+.body {
   height: 100vh;
   width: 100vw;
 }
-.titleAlign{
+
+.titleAlign {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   z-index: -1;
 }
-.plantcare{
-    width: 505px;
-    height: 30vh;
-  
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 96px;
-    line-height: 116px;
-    z-index: -2;
-    color: #69539C;
-}
-.plantWrapper{
 
-    width: 95vw;
-    height: 70vh;
-    background: #D2BFE7;
-    border-radius: 0px 40px 0px 0px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: row;
+.plantcare {
+  width: 505px;
+  height: 30vh;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 116px;
+  z-index: -2;
+  color: #69539C;
 }
 
-.imageWrapper{
-    width: 45vw;
-    height: 63vh;
-    left: 39px;
-    top: 349px;
-    margin-left: 1.5vw;
-    background: #604A96;
-    border-radius: 20px;
+.plantWrapper {
+
+  width: 95vw;
+  height: 70vh;
+  background: #D2BFE7;
+  border-radius: 0px 40px 0px 0px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
 }
 
-.insertPrompt{
-    margin-top: 13px;
-    margin-left: 13px;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 44px;
-  
-    color: rgba(255, 255, 255, 0.58);
+.imageWrapper {
+  width: 45vw;
+  height: 63vh;
+  left: 39px;
+  top: 349px;
+  margin-left: 1.5vw;
+  background: #604A96;
+  border-radius: 20px;
+}
+
+.insertPrompt {
+  margin-top: 13px;
+  margin-left: 13px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.promptText {
+  width: 727px;
+  height: 359px;
+  left: 1086px;
+  top: 470px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #604A96;
+
 }
